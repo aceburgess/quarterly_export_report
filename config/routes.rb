@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :exports
+
   resources :reports
 
   resources :companies

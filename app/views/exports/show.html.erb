@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Market:</strong>
+  <%= @export.market %>
+</p>
+
+<p>
+  <strong>Export amount:</strong>
+  <%= @export.export_amount %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @export.notes %>
+</p>
+
+<%= link_to 'Edit', edit_export_path(@export) %> |
+<%= link_to 'Back', exports_path %>
