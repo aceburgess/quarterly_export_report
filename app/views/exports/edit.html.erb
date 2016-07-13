@@ -1,6 +1,5 @@
-<h1>Editing export</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @export %> |
-<%= link_to 'Back', exports_path %>
+<%- model_class = Export -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => Export %></h1>
+</div>
+<%= render :partial => 'form' %>
